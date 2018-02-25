@@ -1,8 +1,8 @@
-function chessBoard(size){
+const chessBoard = (size) => {
 	let board = "";
-	for(var i = 0; i < size; i++){
- 		for(var a = 0; a < size; a++){
-  		board += (a % 2) == (i % 2) ? " " : "#";
+	for(i = 0; i < size; i++){
+ 		for(j = 0; j < size; a++){
+  		board += (j % 2) == (i % 2) ? " " : "#";
  		}
  	board += "\n";
 	}
