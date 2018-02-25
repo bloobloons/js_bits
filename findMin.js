@@ -10,6 +10,6 @@ function min(a, b){
 }
 
 
-const min2 = (a) => (b) => {
+const min2 = (a, b) => {
 	return ((a !=b && a < b) ? a : (b !=a && b < a) ? b : "equal");
 }
