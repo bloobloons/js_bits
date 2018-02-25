@@ -1,0 +1,1 @@
+const isEven = (number) => { number == 0 ? console.log(true) : number == 1 ? console.log(false) : isEven(number - 2)}
